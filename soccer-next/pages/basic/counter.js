@@ -1,4 +1,5 @@
 import React,{useState} from "react"
+import styled from 'styled-components'
 
 export default function Counter() {
   const [count, setCount] = useState(0)
